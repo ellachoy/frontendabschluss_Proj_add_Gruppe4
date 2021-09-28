@@ -32,10 +32,10 @@ body {
 }
 
 .team-item {
-  flex-shrink: 0;
+  /* flex-shrink: 0;
   margin: 0 10px;
   opacity: 0.4;
-  transition: all 0.4s;
+  transition: all 0.4s; */
 }
 
 .team-item:hover {
@@ -47,7 +47,7 @@ body {
 
 .team-item img {
   width: 20vw;
-  height: 30vh;
+  height: 25vh;
 }
 
 .profile {
@@ -99,9 +99,9 @@ body {
   opacity: 0;
 }
 
-.team-item:hover .profile-contents p {
-  opacity: 1;
+/* .team-item:hover .profile-contents p {
+   opacity: 1;
   transition-delay: 0.4s;
   max-height: 6em;
-  margin-top: 2em;
-}
+  margin-top: 2em; 
+} */
